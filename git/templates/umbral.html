@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>
+		Valores de DJIA por encima del umbral	
+	</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/umbral_css.css') }}">
+</head>
+<body>
+	<div class="titulo">
+	<h1> Valores de DJIA por encima del umbral </h1> 
+	</div>
+	<ol class="umbral">
+	{%for i in range (0, len)%}
+		<h2>{{resultados[i]}} el dia {{fechas[i]}} a la hora {{horas[i]}}</h2>
+	{%endfor%}
+	</ol>
+	<!-- for con flask-html para mostrar los valores de resultados -->
+</body>
+</html>

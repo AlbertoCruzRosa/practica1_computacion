@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Valor de la cotizacion de DJIA</title>
+	<meta  http-equiv="refresh" content="120">
+	<link rel="stylesheet" href="{{ url_for('static', filename='css/estilos.css') }}">
+	<!-- <link rel="stylesheet" href="estilos.css"> -->
+</head>
+<body class="main">
+	<div class="titulo">
+	<h1>Valor de la cotizacion de DJIA</h1>
+	</div>
+	<div class="Cuerpo">
+	<p>
+		<h4>En esta Web se muestra el valor de la cotizacion de DJIA cada dos minutos y ademas el usuario podra extraer cierta informacion
+		como añadir un umbral historico o ver el valor medio.</h>
+	</p>
+	<p>
+		<h4> Valor de DJIA es {{numero_DJIA }} a la hora {{hora}} y el dia {{fecha}} </h>
+	</p>
+	</div>
+	<div class="umbral">
+	<form method="post" action="/umbral">
+		<label for ="umbral">  Ingresa umbral: </label>
+		<input type="number" name="umbral"/>
+		<input type="submit"/>
+	</form>
+	</div>
+	<p>
+	<div class="media">
+	<form method="post" action="/media">
+		<label for ="media">  Calcular media </label>
+		<input type="submit"/>
+	</form>
+	</p>
+	</div>
+	<p>
+	<div class="grafica">
+	<form method="post" action="/grafica">
+		<label for ="grafica"> Obtener grafica de los datos de la base </label>
+		<input type="submit"/>
+	</form>
+	</p>
+	</div>
+	<!-- <img class="metal" width="90" src="tumblr_m5cpbcfcEy1qkrj3lo1_500.webp"> -->
+</body>
+</html>

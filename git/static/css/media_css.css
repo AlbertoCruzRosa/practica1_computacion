@@ -1,0 +1,25 @@
+body{
+	background-image: url('/static/img/fondo.jpg');
+	/*background-image: url('fondo.jpg');*/
+	color: white;
+}
+.cuerpo{
+	color: black;
+	background-color:rgba(49, 237, 184,0.9);
+	font-style:;
+	/*font-size:x-large;*/
+	padding:5px;
+	position: absolute;
+	top:120px;
+}
+.titulo {
+	color: black;
+	width: 445px;
+	background-size: 50% 50%;
+	background-color:rgba(49, 237, 184,0.9);
+	/*font-size:x-large;*/
+	padding-right:5px;
+	padding-left:5px;
+	position: absolute;
+	right:500px;
+}

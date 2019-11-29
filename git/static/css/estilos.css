@@ -1,0 +1,54 @@
+
+.main{
+	background-image: url('/static/img/fondo.jpg');
+	color: white;
+}
+
+.titulo {
+	color: black;
+	width: 420px;
+	background-size: 50% 50%;
+	background-color:rgba(49, 237, 184,0.9);
+	padding-right:5px;
+	padding-left:5px;
+	position: absolute;
+	right:550px;
+}
+.Cuerpo {
+	color: black;
+	background-color:rgba(49, 237, 184,0.9);
+	font-style:;
+	font-size:x-large;
+	padding:5px;
+	position: absolute;
+	top:110px;
+}
+.umbral{
+	color: black;
+	background-color:rgba(49, 237, 184,0.9);
+	font-style:;
+	font-size:x-large;
+	padding:5px;
+	position: absolute;
+	top:310px;
+}
+.media{
+	color: black;
+	background-color:rgba(49, 237, 184,0.9);
+	font-style:;
+	font-size:x-large;
+	padding:5px;
+	position: absolute;
+	height:5%;
+	top:360px;
+}
+.grafica{
+	color: black;
+	background-color:rgba(49, 237, 184,0.9);
+	font-style:;
+	font-size:x-large;
+	padding:5px;
+	position: absolute;
+	height:5%;
+	top:419px;
+}
